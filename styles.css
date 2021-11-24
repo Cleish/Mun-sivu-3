@@ -1,0 +1,40 @@
+<style>
+
+body { background-color: #000000;color: #FFFFFF;}
+li { list-style-type}
+li.1 { list-style-type: square; }
+h1 {font-size: 20px;}
+
+p {color: white;
+	font-size: 12px;}
+	footer{
+		float: left;
+		background: gray;
+		width: 100%;
+		padding: 10px;
+	}
+	nav{
+		float: left;
+		background: red;
+		width: 30%;
+		padding: 20px;
+}
+	div{
+		background: blue;
+		float: left;
+		width: 60%;
+		padding: 20px;
+		height: 68px;
+}
+	section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.new-class {
+	border-style: dotted;
+	border-width: 2px
+	height: 100px;
+	width: 100px;
+}
+</style>
